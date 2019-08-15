@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+ <population Name="StartingGear_CarbideChef">
+    <group Style="pickeach">
+      <table Name="StartingGear_Common"></table>
+
+      <object Blueprint="HalfFullWaterskin" Number="2"></object>
+      <object Blueprint="Leather Apron" Number="1"></object>
+	  <object Blueprint="CarbideChefSubtype_FryingPan" Number="1"></object>
+      <object Blueprint="Witchwood Wreath" Number="1"></object>
+      <object Blueprint="GenericCookbook0" Number="1"></object>
+      <object Blueprint="Leather Moccasins" Number="1"></object>
+	  <table Name="Ingredients3" Number="8"></table>
+	  <!--<table Name="#Food 1" Number="3-4"></table>-->
+    </group>
+  </population>
+ </populations>
