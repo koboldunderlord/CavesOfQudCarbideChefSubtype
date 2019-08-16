@@ -11,7 +11,8 @@
           <skill Name="CookingAndGathering_Spicer" />
           <skill Name="CookingAndGathering_CarbideChef" />
         </skills>
-        <extrainfo>Starts with cooking gear, and can invent 3 recipes</extrainfo>
+        <extrainfo>Starts with cooking gear</extrainfo>
+        <extrainfo>Can immediately invent 3 recipes</extrainfo>
       </subtype>
   </class>
 </subtypes>
