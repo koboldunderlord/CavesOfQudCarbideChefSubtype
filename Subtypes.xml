@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
   <class ID="Callings" Load="merge">
-    <subtype Name="Carbide Chef Subtype" Code="m" Gear="StartingGear_CarbideChef" Tile="creatures/carbide_chef.png" DetailColor="c" BodyObject="CarbideChefSubtypeBody">
+    <subtype Name="Carbide Chef" Code="m" Gear="StartingGear_CarbideChef" Tile="creatures/carbide_chef.png" DetailColor="c" BodyObject="CarbideChefSubtypeBody">
         <stat Name="Intelligence" Bonus="1" />
         <stat Name="Willpower" Bonus="1" />
         <skills>
@@ -11,7 +11,7 @@
           <skill Name="CookingAndGathering_Spicer" />
           <skill Name="CookingAndGathering_CarbideChef" />
         </skills>
-        <extrainfo>Starts will all cooking skills, cooking gear, and can invent 3 recipes</extrainfo>
+        <extrainfo>Starts with cooking gear, and can invent 3 recipes</extrainfo>
       </subtype>
   </class>
 </subtypes>
