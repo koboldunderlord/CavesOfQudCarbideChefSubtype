@@ -2,7 +2,6 @@
 <subtypes>
   <class ID="Callings" Load="merge">
     <subtype Name="Carbide Chef Subtype" Code="m" Gear="StartingGear_CarbideChef" Tile="creatures/carbide_chef.png" DetailColor="c" BodyObject="CarbideChefSubtypeBody">
-        <part Name="CarbideChefRecipeTeacher" Recipes="3" />
         <stat Name="Intelligence" Bonus="1" />
         <stat Name="Willpower" Bonus="1" />
         <skills>
