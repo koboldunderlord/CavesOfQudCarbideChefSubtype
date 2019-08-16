@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using XRL.Rules;
 using XRL.Core;
 using XRL.World.Parts.Effects;
+using XRL.UI;
 
 namespace XRL.World.Parts
 {
@@ -33,9 +34,12 @@ namespace XRL.World.Parts
         {
             if (E.ID == "EndTurn")
             {
+                if (ParentObject.HasPart("OpeningStory")) {
+                    return true;
+                }
                 if (!ParentObject.HasEffect("Inspired")) 
                 {
-                    Popup.show("Your training as a carbide chef has inspired you to invent a meal!");
+                    Popup.Show("Your training as a carbide chef has inspired you to invent a meal!");
                     ParentObject.ApplyEffect(new Inspired(Calendar.turnsPerDay * 2));
                     Recipes--;
                 }
