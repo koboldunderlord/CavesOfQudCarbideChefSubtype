@@ -35,6 +35,7 @@ namespace XRL.World.Parts
             {
                 if (!ParentObject.HasEffect("Inspired")) 
                 {
+                    Popup.show("Your training as a carbide chef has inspired you to invent a meal!");
                     ParentObject.ApplyEffect(new Inspired(Calendar.turnsPerDay * 2));
                     Recipes--;
                 }
