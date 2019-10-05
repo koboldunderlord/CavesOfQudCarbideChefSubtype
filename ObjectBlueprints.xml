@@ -4,7 +4,7 @@
     <part Name="Render" Tile="items/frying_pan.png" DisplayName="frying pan" RenderString="155" ColorString="&amp;K" TileColor="&amp;K" DetailColor="w"></part>
     <part Name="MeleeWeapon" RenderString="155" MaxStrengthBonus="1" BaseDamage="1d2" Skill="Cudgel" Stat="Strength"></part>
     <part Name="Commerce" Value="5"></part>
-    <part Name="Description" Short="A metal flat-bottomed pan, although it is unknown whether the bottom was flattened before or after bashing in monster heads.~J211"></part>
+    <part Name="Description" Short="A pan cast of an ambiguous metal material, flat along the bottom. At a glance, it is unclear whether the pan was originally flat, or flattened by its meeting with the crania of the diverse inhabitants of Qud.~J211"></part>
     <tag Name="Tier" Value="0"></tag>
     <part Name="Metal"></part>
     <part Name="Physics" Weight="3"></part>
